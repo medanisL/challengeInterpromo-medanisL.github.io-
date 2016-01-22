@@ -1,0 +1,203 @@
+/*******************general**************/
+* {
+    margin: 0;
+    padding: 0;
+}
+ul{
+
+	list-style-type: none;
+}
+/*a{
+	enlevé les a par defaut
+}*/
+/*******************header**************/
+header{
+
+	background-image: url("../images/payments-banner-graphic.png"); 
+	height:600px;
+	background-size: cover;
+
+}
+
+
+#logoModif
+{
+	width:30px;
+	height:40px;
+}
+
+.logo{
+	display: inline-block;
+	
+}
+
+#login{
+	float: right;
+
+}
+
+.login{
+	color:white;
+	display: inline-block;
+	
+}
+
+header h1{
+
+	text-align: center;
+	margin-top: 10%;
+	font-size: 28px;
+	color:white;
+}
+header p{
+
+	text-align: center;
+	margin-top: 2%;
+	font-size: 18px;
+	color:white;
+}
+header a{
+	display: block;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 18px;
+	color:rgba(0,0,0,0.8);
+}
+#freecount{
+	display: inline-block;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 6px;
+	width:200px;
+	height:60px;
+}
+
+/*******************1er block **************/
+
+#premierblock{
+	height:310px;
+	text-align: center;
+}
+
+
+.block1{
+	
+	display: inline-block;
+	padding: 4%;
+	
+}
+
+/*******************2eme block **************/
+
+#deusblock{
+	background-color: #f6f9fb;
+	height:315px;
+}
+
+#deusblock p,#deusblock h2{
+
+	text-align: center;
+	padding: 2%;
+}
+
+/*******************3eme block **************/
+
+#troiblock{
+	background-color: #4c535c;
+	height:90px;
+	text-align: center;
+}
+
+#troiblock p{
+	padding: 2%;
+}
+
+/*******************4eme block **************/
+#qublock{
+	
+	border:1px solid black;
+	/*height:490px;*/
+	text-align: center;
+
+}
+
+#qublock1{
+
+	display: inline-block;
+	background: #7cd5ef;
+	width:50%;
+	
+	
+}
+
+#qublock2
+{
+	display: inline-block;
+	vertical-align: top;
+	
+	
+} 
+
+/*******************5eme block **************/
+/*#cqblock{
+	height:490px;
+}*/
+
+#cqblock2{
+
+	display: inline-block;
+	background: #7cd5ef;
+	width:50%;
+	text-align: center;
+	
+}
+
+#cqblock1
+{
+	display: inline-block;
+	vertical-align: top;
+} 
+
+/*******************6eme block **************/
+/*#sisblock{
+	
+	border:1px solid black;
+	height:490px;
+}*/
+
+#sisblock1{
+
+	display: inline-block;
+	background: #8080be;
+	width:50%;
+	text-align: center;
+	
+}
+
+#sisblock2
+{
+	display: inline-block;
+	vertical-align: top;
+
+} 
+
+/*******************7eme block **************/
+
+#spblock{
+	text-align: center;
+	height:287px;
+	padding: 3%;
+}
+
+/*******************footer **************/
+footer{
+	background-color: #242629;
+	height: 390px;
+	padding: 3%;
+}
+
+footer section {
+	display: inline-block;
+	padding: 3%;
+	margin:4%;
+}
